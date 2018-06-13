@@ -1,0 +1,168 @@
+/***************************************************************************/
+/* bibspd.css - Cascading style sheet for BibSpeed                         */
+/* A multi-word font family must be specified in double quotes.            */
+/* e.g. "Times New Roman"                                                  */
+/***************************************************************************/
+/*                                                                         */
+/* background color of document                                            */
+BODY {
+    background: #FFFFFF; /* background color of all displayed pages */
+   }
+
+/* Header 1 (H1) is used for all title bars at the top of displayed pages */
+H1 {
+    background: #1978B9;    /* background color of title bar */
+   font-family: Verdanna,Arial,Helvetica,sans-serif; /* font in title bar */
+    font-style: normal;
+     font-size: 18pt;      /* size of font in title bar */
+   font-weight: normal;
+    text-align: left;
+         color: white;     /* color of font in title bar */
+  padding-left: 1.25in;
+ padding-right: .25in;
+   padding-top: .05in;
+padding-bottom: .05in;
+   }
+/* paragraph (P) and DIV control font used in help pages, Who Are We page, */
+/* main search pages They do not control search result pages (see TD) */
+P {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: normal;
+     font-size: 10pt;
+         color: black;    /* font color */
+  }
+/* DIV is only used on Multi-term search page. This should be the same as the P tag above */
+/* It was used to overcome issues between IE and NS browsers */
+DIV {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: normal;
+     font-size: 10pt;
+         color: black;
+  }
+/* emphasis. em.note is for heading that explains check boxes at top of search results*/
+EM {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: italic;
+     font-size: 10pt;
+         color: black;
+   }
+EM.NOTE {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: normal;
+     font-size: 8pt;
+         color: red;
+   }
+/* bolding */
+B {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: italic;
+     font-size: 10pt;
+   font-weight: bold;
+         color: #9C1431;
+   }
+
+B.srchterm {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: italic;
+     font-size: 10pt;
+   font-weight: bold;
+         color: #9C1431;
+   }
+
+SELECT {
+   font-family: courier;
+         color: purple;
+}
+/* italics */
+i {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: italic;
+     font-size: 10pt;
+         color: black;
+}
+/* OPTION controls contents of pull down lists. e.g. Branch */
+/* OPTION seems to work with IE only */
+OPTION VALUE {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+         color: black;
+  }
+/* table headers */
+TH {
+    font-style: normal;
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+   font-weight: medium;
+     font-size: 10pt;
+         color: #9C1431;
+   }
+/* table headers, columns */
+TH.col {
+    background: #9C1431;
+    font-style: normal;
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+   font-weight: medium;
+     font-size: 10pt;
+         color: white;
+   }
+
+/* the odd rows in bibliographic lists */
+TD.odd {
+    background: #D6D6E0;
+    font-style: normal;
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+     font-size: 10pt;
+   }
+/* the even rows in bibliographic lists */
+TD.even {
+    background: #E1E1E1;
+    font-style: normal;
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+     font-size: 10pt;
+   }
+/* checkboxes in bibliographic lists */
+TD.chkbox {
+    background: #EODEC6;
+   }
+/* controls look of Material Type displays in Key Word and Multi Term Search forms */
+TD {
+    background: #FFFFFF;
+    font-style: normal;
+    font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-size: 10pt;
+   }
+/* links in the short citation lists */
+A.lnk {
+    background: #FFFFFF;
+  font-variant: small-caps;
+     font-size: 10pt;
+   font-weight: bolder;
+   }
+A.text {
+    background: red;
+  font-variant: small-caps;
+   font-weight: bolder;
+   }
+A.image {
+    background: blue;
+  font-variant: small-caps;
+   font-weight: bolder;
+         color: white;
+   }
+/* regular links */
+A {
+   font-family: Verdanna,Arial,Helvetica,sans-serif;
+    font-style: italic;
+     font-size: 10pt;
+   font-weight: bold;
+         color: #9C1431;    /* font color */
+}
+a:visited { 
+   color: #CD5C5C;
+}
+img {
+   background-color: #9C1431;
+}
+/* added by G.King 4/10/02 per Maureen Kimbell at BiblioTech */
+CODE {
+   font-family: "Courier New";
+    font-style: normal;
+}
