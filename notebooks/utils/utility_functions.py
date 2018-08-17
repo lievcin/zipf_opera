@@ -18,3 +18,15 @@ def make_dash_zero(num):
         return '-'
     else:
         return str(int(num))
+
+def shorten_opera_name(text):
+		try:
+			return works_dict[text]
+		except:
+			return text
+
+def make_dash_zero_float(num):
+    if num==0:
+        return '-'
+    else:
+        return str(num)
