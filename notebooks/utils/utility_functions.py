@@ -30,3 +30,8 @@ def make_dash_zero_float(num):
         return '-'
     else:
         return str(num)
+
+def get_season(row):
+    year = row.date_start.year
+    if row.date_start.month<9: year -= 1
+    return year
